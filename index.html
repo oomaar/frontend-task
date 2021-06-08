@@ -33,7 +33,7 @@
   </head>
   <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg p-4">
+    <nav class="navbar navbar-expand-lg navbar-light p-4">
       <div class="container-fluid container">
         <h1 class="brand__link" href="#">Ziri</h1>
         <button
@@ -73,6 +73,85 @@
         </div>
       </div>
     </nav>
+
+    <!-- Header -->
+    <header class="header">
+      <div class="form__container">
+        <h1>
+          Looking for a home?<br />
+          You are in the right place.
+        </h1>
+
+        <form class="pt-lg-5 header__form">
+          <div class="mb-3">
+            <input
+              type="text"
+              class="form-control header__form-input"
+              id="exampleInputEmail1"
+              aria-describedby="emailHelp"
+              placeholder="What is your name ?"
+            />
+          </div>
+
+          <div class="mb-3">
+            <input
+              type="email"
+              class="form-control header__form-input"
+              id="exampleInputPassword1"
+              placeholder="What is your Email?"
+            />
+          </div>
+
+          <div class="select__container">
+            <div class="mb-3">
+              <select
+                class="form-select header__form-select"
+                aria-label="Default select example"
+              >
+                <option selected>How many bedrooms ?</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+            </div>
+            <div class="mb-3">
+              <select
+                class="form-select header__form-select"
+                aria-label="Default select example"
+              >
+                <option selected>How many bathrooms?</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="submit__container">
+            <div class="mb-3">
+              <input
+                type="password"
+                class="form-control header__form-input password-input"
+                id="exampleInputPassword1"
+                placeholder="create a password."
+              />
+            </div>
+            <button type="submit" class="btn header__btn">
+              Find your home!
+            </button>
+          </div>
+        </form>
+      </div>
+      <div class="wave">
+        <div class="wave__text-container">
+          <h1>Choose your style.</h1>
+          <p>Ranch</p>
+        </div>
+        <div class="wave__img-container">
+          <img src="assets/img/house.png" alt="" />
+        </div>
+      </div>
+    </header>
     <!-- Bootstrap js -->
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
